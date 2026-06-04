@@ -18,8 +18,7 @@ struct ContentView: View {
                 ForEach(items) { item in
                     NavigationLink {
                         Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                        // Angel
-                        Text("Ini yg nambahin angel")
+                        Text("Makannnnnn")
                     } label: {
                         Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
                     }
